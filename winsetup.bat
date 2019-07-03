@@ -46,5 +46,5 @@ choco install visualstudio2019professional
 choco install slack
 choco install vscode
 choco install git
-choco install node
+choco install nodejs
 choco install dotnetcore --pre
