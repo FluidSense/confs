@@ -48,4 +48,5 @@ choco install vscode
 choco install git
 choco install nodejs
 choco install dotnetcore --pre
+choco install dotnetcore-sdk --pre 
 refreshenv
