@@ -19,15 +19,16 @@ https://social.technet.microsoft.com/Forums/en-US/fbc6bf0e-e1e0-4868-9af1-735f60
 
 ### WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10  
-PowerShell: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+PowerShell: `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`  
 PowerShell: `dism.exe /online /enable-feature /quiet /featurename:VirtualMachinePlatform /all` Note: This will force a reboot.  
 PowerShell: `wsl --set-default-version 2`
 
 Afterwards, install the desired Distro from Windows Store. This seems to be perhaps the hardest part to script.
 
 ### Install FiraCode
-https://github.com/tonsky/FiraCode/wiki/Installing
-FiraCode is delivered through Chocolatey, but I have yet to get this to work as intended. 
+https://github.com/tonsky/FiraCode/wiki/Installing  
+FiraCode is delivered through Chocolatey, but I have yet to get this to work as intended.  
+I have installed manually for now.  
 
 ### Windows Terminal, settings.json
 ```json
