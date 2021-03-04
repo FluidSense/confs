@@ -20,11 +20,8 @@ https://social.technet.microsoft.com/Forums/en-US/fbc6bf0e-e1e0-4868-9af1-735f60
 ### WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10  
 
-Open PowerShell and execute:
-```powershell
-Invoke-WebRequest https://raw.githubusercontent.com/FluidSense/personal-configs/master/wsl.ps1 -UseBasicParsing | Invoke-Expression
-
-```
+Download `wsl.ps1` and execute it by Right-Click > Run With PowerShell.  
+It will restart once. Afterwards, execute it again to continue the setup.
 
 Afterwards, install the desired Distro from Windows Store. This seems to be perhaps the hardest part to script.
 
