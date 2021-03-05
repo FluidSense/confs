@@ -7,7 +7,7 @@ Setup-file for clean Windows-installations, for developing with .NET-core and JS
 Prompts for admin rights, installs chocolatey, then installs .NET-core, Visual Studio and Node.
 
 # Windows Terminal - WSL 
-I have yet to automate this setup, perhaps I will the next time I have to set up my coding environment.
+I have yet to automate all of this setup, perhaps I will the next time I have to set up my coding environment.
 
 My preference is using the Windows Terminal with Zsh, Spaceship-prompt and FiraCode.
 
