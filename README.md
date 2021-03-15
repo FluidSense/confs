@@ -27,8 +27,8 @@ Afterwards, install the desired Distro from Windows Store. This seems to be perh
 
 ### Install FiraCode
 https://github.com/tonsky/FiraCode/wiki/Installing  
-FiraCode is delivered through Chocolatey, but I have yet to get this to work as intended.  
-I have installed manually for now.  
+FiraCode is delivered through Chocolatey, but throws an ugly error upon installation.  
+It still works though.  
 
 ### Windows Terminal, settings.json
 ```json
